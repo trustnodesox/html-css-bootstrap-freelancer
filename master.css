@@ -1,0 +1,17 @@
+.navbar, .navbar-default{
+  background-color: blue;
+}
+
+.container-fluid{
+  margin: 0 10% auto;
+}
+
+.navbar-default .navbar-brand{
+  color: white !important;
+  margin-left: 10%;
+}
+
+
+nav li a{
+  color: white !important;
+}
