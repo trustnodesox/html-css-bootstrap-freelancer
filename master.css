@@ -2,7 +2,7 @@
   background-color: blue;
 }
 
-.container-fluid{
+.container{
   margin: 0 10% auto;
 }
 
@@ -14,4 +14,9 @@
 
 nav li a{
   color: white !important;
+}
+
+
+.align-items-center img{
+  height: 150px;
 }
