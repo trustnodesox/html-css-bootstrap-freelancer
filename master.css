@@ -12,11 +12,54 @@
 }
 
 
-nav li a{
+nav ul li a{
   color: white !important;
 }
 
+#jumbtron{
+  padding-top: 100px;
+  background-color: #1abc9c;
+  padding-bottom: 80px;
+  color: white;
+}
 
-.align-items-center img{
-  height: 150px;
+#jumbtron h1{
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+#jumbtron p{
+  font-size: 20px;
+}
+
+#jumbtron img{
+  width: 250px;
+  padding-bottom: 40px;
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+i{
+  font-size: 25px;
+  padding: 10px;
+}
+
+.icona:before, .icona:after{
+  content: '';
+  display: block;
+  width: 40%;
+  height: 5px;
+  margin-top: 12px;
+  background-color: white;
+}
+
+.icona:before{
+  float: left;
+}
+
+.icona:after{
+  float: right;
 }
