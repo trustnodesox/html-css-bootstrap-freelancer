@@ -26,14 +26,21 @@ nav ul li a{
   font-weight: 700;
 }
 
+.bg-blue{
+  background-color: #1abc9c;
+}
+
+.bg-white{
+  background-color: white;
+}
+
 #jumbtron{
   padding-top: 60px;
-  background-color: #1abc9c;
   padding-bottom: 80px;
   color: white;
 }
 
-#jumbtron h1{
+h1{
   font-size: 5rem;
   font-weight: 700;
   margin-top: 15px;
@@ -57,6 +64,11 @@ h1{
 i{
   font-size: 25px;
   padding: 10px;
+}
+
+.icona{
+  display: inline-block;
+  width: 300px;
 }
 
 #white.icona:before, #white.icona:after{
@@ -86,15 +98,10 @@ i{
 }
 
 #portfolio{
-  margin-top: 50px;
+  padding-top: 60px;
 }
 
-#portfolio h1{
-  font-size: 5rem;
-  font-weight: 700;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
+
 
 #portfolio .icona{
   margin-bottom: 30px;
@@ -107,4 +114,59 @@ i{
 
 .thumbnail img{
   border-radius: 5%;
+}
+
+#about{
+  width: 100%;
+  padding-top: 60px;
+  color: white;
+}
+
+#about .row{
+  margin: 0 10% auto;
+}
+
+#about .download{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.btn-default i{
+  font-size: 15px;
+  padding: 0;
+  padding-right: 5px;
+}
+
+.btn-custom{
+  padding: 8px;
+  font-size: 15px;
+  background-color: inherit;
+  color: inherit;
+  border: 2px solid white;
+}
+
+#form{
+  padding-top: 60px;
+}
+
+.form-custom{
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0;
+  height: 50px;
+  box-shadow: none;
+}
+
+.form-custom::placeholder{
+  color: #6C757D;
+  font-weight: bold;
+}
+
+#form button{
+  margin-top: 15px;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  padding: 10px;
+  font-weight: bold;
 }
